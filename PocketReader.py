@@ -15,7 +15,7 @@ if __name__ == "__main__":
         head["DNT"] = "1"
         head['Origin'] = "https://kdy.unisyou.net"
 		#你自己的口袋阅链接（微信扫码得到的地址，https开头）
-        head["Referer"] = ""
+        head["Referer"] = "https://xxxxxxx"
         head["Sec-Fetch-Mode"] = "cors"
         head["X-Requested-With"] = "XMLHttpRequest"
 		#自己的Request payload
