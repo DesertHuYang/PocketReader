@@ -3,8 +3,8 @@ import requests
 import json
 import time
 import sys
-reload(sys)
-sys.setdefaultencoding( "utf-8" )
+import imp
+imp.reload(sys)
 if __name__ == "__main__":
     def TencentReader():
         url = "https://kdy.unisyou.net/yunpan/activity/doSign"
